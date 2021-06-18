@@ -47,13 +47,14 @@ import java.util.List;
 @Component
 public class StartupEvent {
 
-    @Value("${grocery.file:vegetables.xlsx}")
     private String fileName;
 
     private final GroceryRepository groceryRepository;
 
-    public StartupEvent(GroceryRepository groceryRepository) {
+    public StartupEvent(GroceryRepository groceryRepository,
+                        @Value("${grocery.file:vegetables.xlsx}") String fileName) {
         this.groceryRepository = groceryRepository;
+        this.fileName = fileName;
     }
 
     /**
@@ -98,7 +99,7 @@ public class StartupEvent {
         } catch (Exception ex) {
             log.error("StartupEvent - readExcelAndStoreInDB : Exception: {}", ex.getMessage());
         }
-        log.info("OUT: StartupEvent - readExcelAndStoreInDB.: {}",startTime.until(LocalDateTime.now(), ChronoUnit.MILLIS));
+        log.info("OUT: StartupEvent - readExcelAndStoreInDB.: {}", startTime.until(LocalDateTime.now(), ChronoUnit.MILLIS));
     }
 
     private Grocery getGrocery(Row row) {
