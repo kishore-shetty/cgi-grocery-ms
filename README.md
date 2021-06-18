@@ -39,16 +39,16 @@ database=grocery-db
 ```
 
 ## Endpoint Usage
-* Endpoint returns list of groceries sorted by name, price & date
+* Endpoint returns paginated list of groceries sorted by name, price & date
 * pageNo & pageSize is non-mandatory. Defaults to 0 & 20 respectively.
 ```yaml
 GET: http://localhost:8081/groceries?pageNo=0&pageSize=20
 ``` 
 
-* Endpoint returns list of groceries with price and date for particular item.
+* Endpoint returns paginated list of groceries with price and date for particular item.
 * pageNo & pageSize is non-mandatory. Defaults to 0 & 20 respectively.
 ```yaml
-PUT: http://localhost:8081/groceries/search?name=Amla&pageNo=0&pageSize=20
+GET: http://localhost:8081/groceries/search?name=Amla&pageNo=0&pageSize=20
 ```
 
 * Endpoint returns report for each Item Name, showing how their price trended
