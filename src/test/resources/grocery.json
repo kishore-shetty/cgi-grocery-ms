@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "60c586e4694ea114b7e73bcf",
+    "dateSk" : "20130605",
+    "name" : "Coke",
+    "price" : 53.0,
+    "date" : "2013-05-06"
+  },
+  {
+    "id" : "60c586e4694ea114b7e73ccf",
+    "dateSk" : "20130606",
+    "name" : "Amla",
+    "price" : 53.0,
+    "date" : "2013-06-06"
+  },
+  {
+    "id" : "60c586e4694ea114b7e73e5c",
+    "dateSk" : "20130607",
+    "name" : "Pepsi",
+    "price" : 53.0,
+    "date" : "2013-07-06"
+  },
+  {
+    "id" : "60c586e4694ea114b7e73ef3",
+    "dateSk" : "20130608",
+    "name" : "Sprite",
+    "price" : 53.0,
+    "date" : "2013-08-06"
+  },
+  {
+    "id" : "60c586e4694ea114b7e74002",
+    "dateSk" : "20130610",
+    "name" : "DrPepper",
+    "price" : 53.0,
+    "date" : "2013-10-06"
+  }
+]

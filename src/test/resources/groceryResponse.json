@@ -1,0 +1,27 @@
+[
+  {
+    "name" : "Coke",
+    "price" : 53.0,
+    "date" : "2013-05-06"
+  },
+  {
+    "name" : "Amla",
+    "price" : 53.0,
+    "date" : "2013-06-06"
+  },
+  {
+    "name" : "Pepsi",
+    "price" : 53.0,
+    "date" : "2013-07-06"
+  },
+  {
+    "name" : "Sprite",
+    "price" : 53.0,
+    "date" : "2013-08-06"
+  },
+  {
+    "name" : "DrPepper",
+    "price" : 53.0,
+    "date" : "2013-10-06"
+  }
+]
